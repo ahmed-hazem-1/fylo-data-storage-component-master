@@ -33,6 +33,7 @@ html,body{
     border-radius: 10px 90px 10px 10px;
     padding:10px 30px 30px;
     margin-right: 40px;
+    box-shadow: 0px 1px 10px 1px hsla(219, 100%, 95%, 0.447);
 }
 .flyo{
     display: block;
@@ -65,6 +66,8 @@ html,body{
     font-size: 14px;
     color: hsl(243, 100%, 93%);
     font-weight: 400;
+    box-shadow: 0px 1px 10px 1px hsla(219, 100%, 95%, 0.447);
+
 
 }
 .div2 .mshape{
@@ -124,6 +127,7 @@ html,body{
     justify-content: center;
     align-items: center;
     color: gray;
+    /* box-shadow: 1px 1px 10px 1px hsla(0, 0%, 100%, 0.447); */
 
   }
   .comment-box::before {
@@ -134,6 +138,7 @@ html,body{
     border-width: 30px 0px 0 40px; /* Creates a right-angled triangle shape */
     border-style: solid;
     border-color: #fff transparent transparent transparent; /* Color of the tail */
+    
   }
   .num{
     display: inline-block;
